@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* color-primary */
+  --color-desaturated-red: rgb(206, 151, 151);
+  --color-soft-red: rgb(249, 98, 98);
+  /* color-neutral */
+  --color-dark-grayish-red: rgb(65, 58, 58);
+  /* color-gradient */
+  --color-gradient-1: Linear, 135deg, from rgb(255, 255, 255),
+    to rgb(255, 245, 245);
+  --color-gradient-2: Linear, 135deg, from rgb(248, 191, 191),
+    to rgb(238, 140, 140);
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
