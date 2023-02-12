@@ -26,28 +26,41 @@
       <div class="logo-container">
         <img src="./images/logo.svg" alt="Base Apparel Logo" class="logo" />
       </div>
-      <div class="hero-img-container">
-        <img
-          src="./images/hero-desktop.jpg"
-          alt="Base Apparel model image"
-          class="hero-img"
-        />
-      </div>
+
+      <div class="hero-img-container"></div>
+
       <div class="main-content">
         <h1 class="main-content__heading">
-          <span class="main-content__first-word">We're</span>coming soon
+          <p class="main-content__first-word">we're</p>
+          <p class="main-content__second-word">coming</p>
+          <p class="main-content__third-word">soon</p>
         </h1>
         <p class="main-content__text">
-          We're coming soon Hello fellow shoppers! We're currently building our
-          new fashion store. Add your email below to stay up-to-date with
-          announcements and our launch deals.
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
         </p>
         <form action="GET" class="main-content__form">
-          <input
-            type="text"
-            class="main-content__form-text"
-            placeholder="Email Address"
-          />
+          <div class="input-content">
+            <input
+              type="text"
+              class="main-content__form-input"
+              placeholder="Email Address"
+            />
+            <img
+              src="./images/icon-error.svg"
+              alt="Error"
+              class="warning-img"
+            />
+            <button class="btn">
+              <img
+                src="./images/icon-arrow.svg"
+                alt="Arrow"
+                class="arrow-img"
+              />
+            </button>
+          </div>
+          <div class="warning">Warning Message</div>
         </form>
       </div>
     </main>
