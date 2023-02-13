@@ -215,19 +215,3 @@ body {
     font-size: 0.9rem;
   }
 }
-@media only screen and (min-width: 100em) {
-  .main-content__heading {
-    font-size: 5rem;
-    letter-spacing: 1.5rem;
-    line-height: 1.25;
-  }
-  .main-content__text {
-    font-size: 1.2rem;
-  }
-  .main-content__form-input {
-    padding: 1.5rem 0 1.5rem 2rem;
-  }
-  .btn {
-    padding: 1.4rem 2.5rem;
-  }
-}
