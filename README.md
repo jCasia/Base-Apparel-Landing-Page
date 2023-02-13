@@ -6,7 +6,7 @@ I had to code the design for Base Apparel landing page. Overall it went quite we
 
 ### Links
 
-- The Live Site URL for this project: [Click here](https://jcasia.github.io/FAQ-Accordion-Card/)
+- The Live Site URL for this project: [Click here](https://jcasia.github.io/Base-Apparel-Landing-Page/)
 - My Frontend Mentor Username - [@jCasia](https://www.frontendmentor.io/profile/jCasia)
 
 ### I built this project using:
