@@ -16,7 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+    ></script>
     <script defer src="index.js"></script>
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
@@ -31,16 +34,16 @@
 
       <div class="main-content">
         <h1 class="main-content__heading">
-          <span class="main-content__first-word">we're</span>
-          <span class="main-content__second-word">coming</span>
-          <span class="main-content__third-word">soon</span>
+          <span class="heading main-content__first-word">we're</span>
+          <span class="heading main-content__second-word">coming</span>
+          <span class="heading main-content__third-word">soon</span>
         </h1>
         <p class="main-content__text">
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form action="GET" class="main-content__form">
+        <form class="main-content__form" id="form">
           <div class="input-content">
             <input
               type="text"
@@ -60,7 +63,7 @@
               />
             </button>
           </div>
-          <div class="warning hidden">Warning Message</div>
+          <div class="warning hidden"></div>
         </form>
       </div>
     </main>

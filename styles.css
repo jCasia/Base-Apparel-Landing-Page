@@ -73,6 +73,10 @@ body {
   padding: 5rem 16rem 0 10rem;
 }
 
+.heading {
+  visibility: hidden;
+}
+
 .main-content__heading {
   text-transform: uppercase;
   font-weight: 600;
@@ -83,6 +87,7 @@ body {
 .main-content__first-word {
   font-weight: 300;
   color: var(--color-desaturated-red);
+  display: block;
 }
 .main-content__second-word {
   display: block;
@@ -95,6 +100,8 @@ body {
   font-size: 1.1rem;
   color: var(--color-desaturated-red);
   line-height: 1.5;
+
+  visibility: hidden;
 }
 
 .main-content__form {
@@ -194,6 +201,10 @@ body {
   }
   .hero-img-container {
     background-image: url("./images/hero-mobile.jpg");
+  }
+  .warning {
+    padding-left: 2rem;
+    text-align: start;
   }
 }
 @media only screen and (max-width: 29rem) {
