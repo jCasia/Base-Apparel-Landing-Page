@@ -27,7 +27,12 @@
   <body>
     <main class="container">
       <div class="logo-container">
-        <img src="./images/logo.svg" alt="Base Apparel Logo" class="logo" />
+        <img
+          src="./images/logo.svg"
+          alt="Base Apparel Logo"
+          class="logo"
+          role="presentation"
+        />
       </div>
 
       <div class="hero-img-container"></div>
@@ -45,7 +50,9 @@
         </p>
         <form class="main-content__form" id="form">
           <div class="input-content">
+            <label for="email" class="screen-reader-only">email input</label>
             <input
+              id="email"
               type="text"
               class="main-content__form-input"
               placeholder="Email Address"
@@ -60,6 +67,7 @@
                 src="./images/icon-arrow.svg"
                 alt="Arrow"
                 class="arrow-img"
+                aria-label="submit email"
               />
             </button>
           </div>
